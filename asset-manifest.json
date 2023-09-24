@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/react-gh-pages/static/js/main.5347276d.js",
-    "static/media/cover-picture.jpg": "/react-gh-pages/static/media/cover-picture.fd7700d81bdf5c6382fa.jpg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.5347276d.js.map": "/react-gh-pages/static/js/main.5347276d.js.map"
+    "main.js": "/victorlee0911.github.io/reshine-website/static/js/main.bfa35630.js",
+    "static/media/cover-picture.jpg": "/victorlee0911.github.io/reshine-website/static/media/cover-picture.fd7700d81bdf5c6382fa.jpg",
+    "index.html": "/victorlee0911.github.io/reshine-website/index.html",
+    "main.bfa35630.js.map": "/victorlee0911.github.io/reshine-website/static/js/main.bfa35630.js.map"
   },
   "entrypoints": [
-    "static/js/main.5347276d.js"
+    "static/js/main.bfa35630.js"
   ]
 }
