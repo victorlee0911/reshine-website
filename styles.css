@@ -67,7 +67,9 @@ h2 {
 }
 
 .cover-section {
-    max-height: 80vh;
+    position: fixed;
+    top: 0;
+    max-height: 65vh;
     width: 100%;
     overflow: hidden;
     z-index: -1;
@@ -86,6 +88,7 @@ h2 {
 }
 
 .grid-container {
+    margin-top: 65vh;
     padding-top: 5vh;
     padding-bottom: 5vh;
     padding-left: 20px;

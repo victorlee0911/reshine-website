@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.js": "/victorlee0911.github.io/reshine-website/static/js/main.bfa35630.js",
-    "static/media/cover-picture.jpg": "/victorlee0911.github.io/reshine-website/static/media/cover-picture.fd7700d81bdf5c6382fa.jpg",
-    "index.html": "/victorlee0911.github.io/reshine-website/index.html",
-    "main.bfa35630.js.map": "/victorlee0911.github.io/reshine-website/static/js/main.bfa35630.js.map"
+    "main.js": "/reshine-website/static/js/main.2ecb0630.js",
+    "index.html": "/reshine-website/index.html",
+    "main.2ecb0630.js.map": "/reshine-website/static/js/main.2ecb0630.js.map"
   },
   "entrypoints": [
-    "static/js/main.bfa35630.js"
+    "static/js/main.2ecb0630.js"
   ]
 }
