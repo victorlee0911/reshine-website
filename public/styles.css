@@ -31,16 +31,15 @@ h2 {
     justify-content: space-between;
     align-items: center;
     z-index: 2;
-    background-color: rgba(63, 114, 175, 0);
-        -webkit-transition: background 0.5s ease-in-out;
-        -moz-transition: background 0.5s ease-in-out;
-        -ms-transition: background 0.5s ease-in-out;
-        -o-transition: background 0.5s ease-in-out;
-        transition: background 0.5s ease-in-out;
+    background-color: rgba(63, 114, 175, 0.7);
 }
 
-.nav-opaque {
-    background-color: rgba(63, 114, 175, 0.7);
+.nav-bar a {
+    height: 100%;
+}
+
+.logo {
+    height: 100%;
 }
 
 .links {
@@ -69,7 +68,7 @@ h2 {
 .cover-section {
     position: fixed;
     top: 0;
-    max-height: 65vh;
+    max-height: 80vh;
     width: 100%;
     overflow: hidden;
     z-index: -1;
@@ -77,18 +76,22 @@ h2 {
 
 .cover-text {
     position: absolute;
-    left: 30%;
-    top: 50%;
+    left: 20%;
+    top: 20%;
+    width: 40%;
     font-size: 3rem;
-    color: white;
+    color: #F9F7F7;
+    -webkit-text-stroke: 1px #112D4E;
 }
 
 .cover-photo {
+    object-fit: cover;
+    height: 80vh;
     width: 100%;
 }
 
 .grid-container {
-    margin-top: 65vh;
+    margin-top: 75vh;
     padding-top: 5vh;
     padding-bottom: 5vh;
     padding-left: 20px;
@@ -117,7 +120,7 @@ h2 {
 
 .text-section {
     width: 50%;
-    color: #DBE2EF;
+    color: #112D4E;
 }
 
 .text-section h2 {
@@ -165,6 +168,10 @@ h2 {
     width: 100%;
 }
 
+.product .text-section {
+    text-align: center;
+    width: 100%;
+}
 
 
 @media (max-width: 1200px){
@@ -177,12 +184,18 @@ h2 {
         font-size: 1em;
     }
 
-    .cover-section {
-        position: relative;
-        z-index: 0;
+    .cover-section, .cover-photo {
+        height: 60vh;
     }
 
     .grid-container {
-        margin-top: 5vh;
+        padding-top: 5vh;
+        margin-top: 55vh;
+    }
+}
+
+@media (max-width: 850px) {
+    .grid {
+        grid-template-columns: 1fr;
     }
 }

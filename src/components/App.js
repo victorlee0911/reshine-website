@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
+import CoverPhoto from '../assets/Cover Picture.jpg';
+import Logo from '../assets/Logo.png'
+import Product1 from '../assets/Product (BESS).png';
+import Product2 from '../assets/Product (SOLAR).png';
 
 function App (){
     return (
         <div class="layout">
             <div class="nav-bar">
                 <a href="./index.html">
-                    <img class="logo" src="./src/assets/logo.png" alt="WeShine Logo" />
+                    <img class="logo" src={Logo} alt="WeShine Logo" />
                 </a>
                 <ul class="links">
                     <li><a href="./about.html">About</a></li>
@@ -13,14 +17,14 @@ function App (){
                 </ul>
             </div>
 
-            <div class="cover-section">
+            <div class="cover-section white-blue">
                 <div class="cover-text">
                     <h1>ReShine Renewables</h1>
                 </div>
-                <img class="cover-photo" src="./src/assets/Cover Picture.jpg" alt="microgrid renewable energy" />
+                <img class="cover-photo" src={CoverPhoto} alt="microgrid renewable energy" />
             </div>
 
-            <div class="grid-container dark-blue">
+            <div class="grid-container white-blue">
                 <div class="grid">
                     <div class="grid-item">
                         <img src="./src/assets/BESS (Acentech).jpg" alt="alt" />
@@ -56,16 +60,26 @@ function App (){
                 </div>
             </div>
 
-            <div class="section">
+            <div class="section product">
                 <div class="section-title">
                     <h2>Products</h2>
                 </div>
                 <div class="section-flex">
                     <div class="section-item">
-                        <a href="#"><img src="./src/assets/energies-15-04062-g001 Microgrid.png" alt="test" /></a>
+                        <a href="#"><img src={Product1} alt="test" /></a>
+                        <div class="text-section"><p>test</p></div>
                     </div>
                     <div class="section-item">
-                        <img src="./src/assets/energies-15-04062-g001 Microgrid.png" alt="test" />
+                        <img src={Product2} alt="test" />
+                        <div class="text-section"><p>test</p></div>
+                    </div>
+                    <div class="section-item">
+                        <a href="#"><img src={Product1} alt="test" /></a>
+                        <div class="text-section"><p>test</p></div>
+                    </div>
+                    <div class="section-item">
+                        <a href="#"><img src={Product1} alt="test" /></a>
+                        <div class="text-section"><p>test</p></div>
                     </div>
                 </div>
             </div>
