@@ -1,6 +1,6 @@
 import React from 'react';
 import CoverPhoto from '../assets/Cover Picture.jpg';
-import Logo from '../assets/Logo.png'
+import Logo from '../assets/Logo Tranparent.png'
 import Product1 from '../assets/Product (BESS).png';
 import Product2 from '../assets/Product (SOLAR).png';
 
@@ -18,8 +18,8 @@ function App (){
             </div>
 
             <div class="cover-section white-blue">
-                <div class="cover-text">
-                    <h1>ReShine Renewables</h1>
+                <div class="cover-logo">
+                    <img class="cover-logo" src={Logo} alt="Reshine Logo" />
                 </div>
                 <img class="cover-photo" src={CoverPhoto} alt="microgrid renewable energy" />
             </div>
