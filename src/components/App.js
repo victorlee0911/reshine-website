@@ -1,8 +1,12 @@
 import React from 'react';
 import CoverPhoto from '../assets/Cover Picture.jpg';
-import Logo from '../assets/Logo Tranparent.png'
-import Product1 from '../assets/Product (BESS).png';
-import Product2 from '../assets/Product (SOLAR).png';
+import Logo from '../assets/Logo Transparent.png'
+import Product1 from '../assets/Product (Microgrid).png'
+import Product2 from '../assets/Product (BESS).png';
+import Product3 from '../assets/Product (Solar).png';
+import Product4 from '../assets/Product (Horticultural).png';
+import OutdoorFarming from '../assets/Farming Outdoor.jpg';
+
 
 function App (){
     return (
@@ -31,28 +35,45 @@ function App (){
                     </div>
                     <div class="grid-item text-container">
                         <div class="text-section">
-                            <h2>Testing 1</h2>
-                            <p>ipiscididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <h2>Customer Centered Total Solution</h2>
+                            <p>
+                                <ul>
+                                    <li>Turn-key Solution</li>
+                                    <li>Customer Centered Product and Service</li>
+                                    <li>Agricultural Support from our Agriculture Advisors</li>
+                                    <li>Financing Service from our Partners (EaaS)</li>
+                                    <li>Long Term Partnership</li>
+                                </ul>
+                            </p>
                             <button class="learn-more">Learn More</button>
                         </div>
                     </div>
                     <div class="grid-item text-container">
                         <div class="text-section">
-                            <h2>Testing 2</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <h2>Microgrid + LED Lighting Solutions</h2>
+                            <p>
+                                <ul>
+                                    <li>Advanced Microgrid Technologies</li>
+                                    <li>Novel energy management systems combined with  innovative lighting technologies for agriculture</li>
+                                </ul> 
+                            </p>
                             <button class="learn-more">Learn More</button>
                         </div>
                     </div>
                     <div class="grid-item">
-                        <img src="./src/assets/AeroFarms-Vertical-Farm-212-Rome-Interior-1-1280x720.png" alt="test" />
+                        <img src={Product1} alt="test" />
                     </div>
                     <div class="grid-item">
-                        <img src="./src/assets/energies-15-04062-g001 Microgrid.png" alt="test" />
+                        <img src={Product2} alt="test" />
                     </div>
                     <div class="grid-item text-container">
                         <div class="text-section">
-                            <h2>Microgrid with BMS</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <h2>Advanced BESS </h2>
+                            <p>
+                                <ul>
+                                    <li>Safe & reliable battery energy storage system with novel active balancing technologies and advanced battery management systems</li>
+                                </ul>
+                            </p>
                             <button class="learn-more">Learn More</button>
                         </div>
                     </div>
@@ -60,7 +81,7 @@ function App (){
                 </div>
             </div>
 
-            <div class="section product">
+            <div class="section product blue">
                 <div class="section-title">
                     <h2>Products</h2>
                 </div>
@@ -74,22 +95,23 @@ function App (){
                         <div class="text-section"><p>test</p></div>
                     </div>
                     <div class="section-item">
-                        <a href="#"><img src={Product1} alt="test" /></a>
+                        <a href="#"><img src={Product3} alt="test" /></a>
                         <div class="text-section"><p>test</p></div>
                     </div>
                     <div class="section-item">
-                        <a href="#"><img src={Product1} alt="test" /></a>
+                        <a href="#"><img src={Product4} alt="test" /></a>
                         <div class="text-section"><p>test</p></div>
                     </div>
                 </div>
             </div>
-            <div class="section">
+
+            <div class="section white-blue">
                 <div class="section-title">
                     <h2>Market</h2>
                 </div>
                 <div class="section-flex">
                     <div class="section-item">
-                        <img src="./src/assets/energies-15-04062-g001 Microgrid.png" alt="test" />
+                        <img src={OutdoorFarming} alt="test" />
                     </div>
                     <div class="section-item">
                         <img src="./src/assets/energies-15-04062-g001 Microgrid.png" alt="test" />
