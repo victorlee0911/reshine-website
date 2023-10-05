@@ -1,11 +1,13 @@
 import React from 'react';
 import CoverPhoto from '../assets/Cover Picture.jpg';
 import Logo from '../assets/Logo Transparent.png'
+import Customer from '../assets/Customer.png'
 import Product1 from '../assets/Product (Microgrid).png'
 import Product2 from '../assets/Product (BESS).png';
 import Product3 from '../assets/Product (Solar).png';
 import Product4 from '../assets/Product (Horticultural).png';
 import OutdoorFarming from '../assets/Farming Outdoor.jpg';
+import IndoorFarming from '../assets/Farming Indoor.png'
 
 
 function App (){
@@ -22,16 +24,14 @@ function App (){
             </div>
 
             <div class="cover-section white-blue">
-                <div class="cover-logo">
-                    <img class="cover-logo" src={Logo} alt="Reshine Logo" />
-                </div>
+                <img class="cover-logo" src={Logo} alt="Reshine Logo" />
                 <img class="cover-photo" src={CoverPhoto} alt="microgrid renewable energy" />
             </div>
 
             <div class="grid-container white-blue">
                 <div class="grid">
                     <div class="grid-item">
-                        <img src="./src/assets/BESS (Acentech).jpg" alt="alt" />
+                        <img src={Customer} alt="alt" />
                     </div>
                     <div class="grid-item text-container">
                         <div class="text-section">
@@ -45,7 +45,6 @@ function App (){
                                     <li>Long Term Partnership</li>
                                 </ul>
                             </p>
-                            <button class="learn-more">Learn More</button>
                         </div>
                     </div>
                     <div class="grid-item text-container">
@@ -57,7 +56,6 @@ function App (){
                                     <li>Novel energy management systems combined with  innovative lighting technologies for agriculture</li>
                                 </ul> 
                             </p>
-                            <button class="learn-more">Learn More</button>
                         </div>
                     </div>
                     <div class="grid-item">
@@ -74,7 +72,6 @@ function App (){
                                     <li>Safe & reliable battery energy storage system with novel active balancing technologies and advanced battery management systems</li>
                                 </ul>
                             </p>
-                            <button class="learn-more">Learn More</button>
                         </div>
                     </div>
 
@@ -114,7 +111,7 @@ function App (){
                         <img src={OutdoorFarming} alt="test" />
                     </div>
                     <div class="section-item">
-                        <img src="./src/assets/energies-15-04062-g001 Microgrid.png" alt="test" />
+                        <img src={IndoorFarming} alt="test" />
                     </div>
                 </div>
             </div>
