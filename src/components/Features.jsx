@@ -1,6 +1,6 @@
 import React from 'react';
-import Feature1 from '../assets/Customer.png'
-import Feature2 from '../assets/Product (Microgrid).png'
+import Feature1 from '../assets/Customer.png';
+import Feature2 from '../assets/Product (Microgrid).png';
 import Feature3 from '../assets/Product (BESS).png';
 
 function Features () {

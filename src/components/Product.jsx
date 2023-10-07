@@ -1,5 +1,5 @@
 import React from 'react';
-import Product1 from '../assets/Product (Microgrid).png'
+import Product1 from '../assets/Product (Microgrid).png';
 import Product2 from '../assets/Product (BESS).png';
 import Product3 from '../assets/Product (Solar).png';
 import Product4 from '../assets/Product (Horticultural).png';
