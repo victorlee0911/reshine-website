@@ -6,7 +6,7 @@ import Feature3 from '../assets/Product (BESS).png';
 function Features () {
     return (
         <div class="grid-container white-blue">
-            <div class="grid">
+            <div class="grid dark-blue">
                 <div class="grid-item">
                     <img src={Feature1} alt="alt" />
                 </div>
