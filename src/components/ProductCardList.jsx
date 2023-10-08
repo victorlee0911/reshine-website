@@ -8,11 +8,9 @@ function createListItem(item) {
 function ProductCardList (props) {
 
     return (
-        <p class="card-list">
-            <ul>
+            <ul class="card-list">
                 {props.list.map(createListItem)}
             </ul>
-        </p>
         
     );
 }

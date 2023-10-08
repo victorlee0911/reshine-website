@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import CircleButton from './CircleButton';
 
@@ -11,10 +11,19 @@ function TextCoordinator () {
 
     const [activeButton, setActiveButton] = useState(0);
 
+    useEffect(() => {
+        const interval = setInterval(() => {
+            console.log(activeButton);
+            setActiveButton((oldActiveButton) => (oldActiveButton + 1) % 3);
+        }, 5000);
+        return () => clearInterval(interval);
+    }, [activeButton]);
+    
+
     return (
         <>
             <div class="cover-text" style={{ fontSize : activeButton === 0 ? '2.5rem' : '1.5rem'}}>{text[activeButton]}</div>
-            <div class="button-container blue">
+            <div class="button-container">
                 <CircleButton
                     isActive= {activeButton === 0}
                     handleClick= {() => setActiveButton(0)}

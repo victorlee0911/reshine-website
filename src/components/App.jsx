@@ -5,7 +5,8 @@ import Cover from './Cover';
 import Product from './Product';
 import Features from './Features';
 import Market from './Market';
-
+import Brochure from './Brochure';
+import Footer from './Footer'
 
 function App (){
     return (
@@ -16,9 +17,10 @@ function App (){
             <Features />
             <Product />
             <Market />
+            <Brochure />
             
 
-            <footer>footer</footer>
+            <Footer />
         </div>
     )
 };

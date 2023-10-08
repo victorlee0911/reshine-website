@@ -9,7 +9,7 @@ function ProductCardSection (props) {
 
     function createCard (product) {
         return (
-            props.activeCard !== product.id && 
+            //props.activeCard !== product.id && 
                 <ProductCard
                     img = {product.image}
                     alt = {product.alt}
