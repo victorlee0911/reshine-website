@@ -54,7 +54,14 @@ const cards = [
         image: Product4,
         alt: "photo of Horticultural Lighting",
         title: "Horticultural Lighting",
-        list: ["first", "second"]
+        list: [
+            "Revolutionizing farming by enabling growth of vegetables and fruit all year-round",
+            "Faster grow, while using less land, less water, less fertilizers, and zero pesticides",
+            "High efficiency, multi-color LED farming solutions specifically for different plants",
+            "Adjustable light amount (100% - 10%, 5% per order)",
+            "Lumens depreciation (L80) 50,000 hours",
+            "Low power consumption: 2.3 – 23 W (per 4-ft light tube)",
+            "LED fixtures designed for most efficient horticultural lighting."]
 
     }    
 ]
@@ -73,7 +80,13 @@ function Product () {
                 activeCard = {activeCard}
                 updateCard = {(idx) => setActiveCard(idx)}
             />
-            
+            {activeCard !== -1 && <ProductCardActive
+                img = {cards[activeCard].image}
+                alt = {cards[activeCard].alt}
+                title= {cards[activeCard].title}
+                list = {cards[activeCard].list}
+                handleClick = {() => {setActiveCard(-1)}}
+            />}
         </div>
     );
 }

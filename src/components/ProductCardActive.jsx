@@ -3,7 +3,7 @@ import ProductCardList from './ProductCardList';
 
 function ProductCardActive (props) {
     return (
-        <button onClick={props.handleClick} class="section-item blue">
+        <button onClick={props.handleClick} class="active-section section-item blue">
             <img src={props.img} alt={props.alt} />
             <div class="text-section section-title">
                 <h3 class="card-title">{props.title}</h3>
