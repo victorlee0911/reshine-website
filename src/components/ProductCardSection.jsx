@@ -15,6 +15,7 @@ function ProductCardSection (props) {
                     alt = {product.alt}
                     title= {product.title}
                     handleClick = {() => {props.updateCard(product.id)}}
+                    onHover = {() => {}}
                     isActive = {props.activeCard === product.id}
                 />
         );

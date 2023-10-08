@@ -93,10 +93,10 @@ ul li {
     position: relative;
     background-color: white;
     border-radius: 10px;
-    top: 30%;
+    top: 22%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 20vh;
+    height: 8vh;
     width: auto;
     font-size: 3rem;
 }
@@ -222,6 +222,7 @@ ul li {
 .card-title {
     font-size: 1.5em;
     margin-bottom: 2vh;
+    color:#112D4E;
 }
 
 .card-list {
@@ -239,14 +240,14 @@ ul li {
 
 .section-item {
     max-width: 20%;
-    border: solid 1px white;
+    border: solid 1px #112D4E;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.section-item:hover {
+.section-item:hover{
     background-color: #112D4E;
     cursor:pointer;
 }
@@ -321,6 +322,7 @@ ul li {
     }
     #fst-txt {
         order: 2;
+
     }
     #snd-img {
         order: 3;
