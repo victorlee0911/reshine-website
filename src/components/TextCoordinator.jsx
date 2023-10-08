@@ -15,7 +15,7 @@ function TextCoordinator () {
         const interval = setInterval(() => {
             console.log(activeButton);
             setActiveButton((oldActiveButton) => (oldActiveButton + 1) % 3);
-        }, 5000);
+        }, 3000);
         return () => clearInterval(interval);
     }, [activeButton]);
     

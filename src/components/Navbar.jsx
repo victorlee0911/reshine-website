@@ -8,8 +8,8 @@ function Navbar () {
                 <img class="logo" src={Logo} alt="WeShine Logo" />
             </a>
             <ul class="links">
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./about">About</a></li>
+                <li><a href="./contact">Contact</a></li>
             </ul>
         </div>
 

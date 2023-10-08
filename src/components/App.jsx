@@ -1,27 +1,17 @@
 import React from 'react';
+import Home from './Home';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
-import Navbar from './Navbar';
-import Cover from './Cover';
-import Product from './Product';
-import Features from './Features';
-import Market from './Market';
-import Brochure from './Brochure';
-import Footer from './Footer'
 
 function App (){
     return (
-        <div class="layout">
-            
-            <Navbar />
-            <Cover />
-            <Features />
-            <Product />
-            <Market />
-            <Brochure />
-            
-
-            <Footer />
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Home tab="home" />} />
+                <Route path="/about" element={<Home /> } />
+                <Route path="/contact" element={<h1>contact</h1>} />
+            </Routes>
+        </BrowserRouter>
     )
 };
 
