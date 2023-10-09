@@ -6,7 +6,7 @@ function Brochure () {
     return (
         <div class="section brochure white-blue">
             <div class="section-title">
-                <h2>Brochure</h2>
+                <h2>Brochure:</h2>
             </div>
             
             <div class="section-flex">

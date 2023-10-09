@@ -48,9 +48,14 @@ ul li {
     height: 100%;
 }
 
+#nav-padding{
+    height: 5vh;
+}
+
 .logo {
     height: 100%;
 }
+
 
 .links {
     display: flex;
@@ -79,7 +84,7 @@ ul li {
 .cover-section {
     position: fixed;
     top: 0;
-    max-height: 80vh;
+    max-height: 75vh;
     width: 100%;
     overflow: hidden;
     z-index: -1;
@@ -149,7 +154,7 @@ ul li {
 }
 
 .grid-container {
-    margin-top: 75vh;
+    margin-top: 65vh;
     padding-top: 5vh;
     padding-bottom: 5vh;
     padding-left: 50px;
@@ -293,8 +298,60 @@ ul li {
     margin-bottom: 3vh;
 }
 
+.market .section-flex{
+    margin-bottom: 0;
+}
+
 .brochure {
     color: #112D4E;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 5vh;
+}
+
+.brochure .section-title{
+    margin: 0;
+}
+.brochure .section-flex {
+    margin-left: 30px;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: auto;
+    height: 100%;
+
+}
+
+.footer {
+    max-height: 20vh;
+}
+
+#contact-page {
+    height: 90vh;
+    padding: 0;
+    color:#F9F7F7;
+}
+
+#contact-page .section-title{
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    font-size: 3rem;
+}
+
+#contact-page ul{
+    padding: 0;
+}
+#contact-page li{
+    list-style: none;
+    list-style-position: outside;
+    font-size: 1.5rem;
+}
+
+#contact-page-photo {
+    height: 100%;
+    width: auto;
+    position: fixed;
+    z-index: -1;
 }
 
 #copyright{
@@ -319,6 +376,10 @@ ul li {
     .grid-container {
         padding-top: 5vh;
         margin-top: 55vh;
+    }
+
+    #contact-page li{
+        font-size: 1rem;
     }
 }
 
