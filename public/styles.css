@@ -55,24 +55,25 @@ ul li {
 .links {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     list-style: none;
     width: 15%;
+    height: 100%;
     font-size: 1.5em;
     margin-right: 40px;
 }
 
-.links li {
-    text-align: center;
-}
-
 .links a {
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    padding: 11px;
+    padding-left: 15px;
+    padding-right: 15px;
     color: #DBE2EF;
 }
 
-.links a:hover {
-    color: white;
+.links a:hover, a.active-header {
+    background-color: #112D4E;
 }
 
 .cover-section {

@@ -9,7 +9,7 @@ function Footer () {
         <footer>
 
             
-            <p id="copyright">© Reshine Renweables 2023</p>
+            <p id="copyright">&#169; Reshine Renweables 2023</p>
 
         </footer>
 
